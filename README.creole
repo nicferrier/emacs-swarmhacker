@@ -1,0 +1,33 @@
+= Swarm Hacking =
+
+A swarm is a bunch of hackers using tmux (or some other virtual
+resource sharing system) to co-operatively hack on code together.
+
+I want to experiment with swarm hacking for Emacs users so I'm going
+to try and run some swarms with #emacs users.
+
+But I have lot's of experience with doing ChatOps and don't want to
+repeat the experience of audio conferencing with swarming.
+
+So this mode includes tools to make a single Emacs able to do multiple
+person chat with //just// buffers.
+
+Try:
+
+{{{
+M-x swarmhacker [RET] your-username [RET]
+}}}
+
+You will get a unique color. Other people with different usernames
+will get other colors.
+
+The system is //totally// co-operative. There is no security. It would
+be pointless to try and invite hackers into a box with some
+security. Expect them to destroy it if you don't ask them nicely not
+to.
+
+
+=== Installation ===
+
+This is a package. I'll add it
+to [[http://marmalade-repo.org|marmalade-repo]] at some point.
